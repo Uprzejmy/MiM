@@ -1,0 +1,11 @@
+PROG SEGMENT CODE
+CSEG AT 0
+JMP start
+RSEG PROG
+ start:
+	;MOV A,P3
+	;MOV P2,A
+	MOV P2,P3
+	
+	SJMP start
+END 
